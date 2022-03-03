@@ -21,6 +21,9 @@
     justify-content: flex-start;
     padding: 10px;
 }
+.header-card {
+    display: none;
+}
 .logo{
     padding-right: 40px;
 
@@ -164,7 +167,7 @@
 }
 .main-text span{
     font-size: 20px;
-
+    font-weight: 700;
 }
 .main-group{
     background-color: #f1f1f1;

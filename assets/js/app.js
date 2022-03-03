@@ -1,7 +1,20 @@
 const header = document.querySelector('header')
 const title = document.querySelector('title')
+const card = document.querySelector('.header-card')
+const list = document.querySelector('.information')
+const close = document.querySelector('.close')
+const overflow = document.querySelector('.overflow')
 
-console.log(title.innerText)
+card.addEventListener('click', () => {
+    list.style.display = 'block'
+})
+
+function hiddenList() {
+    list.style.display = 'none'
+}
+
+close.addEventListener('click', hiddenList)
+overflow.addEventListener('click', hiddenList)
 
 setInterval(() => {
     if(title.innerText === 'Giao Diện Website Wordpress, Theme Wordpress') {

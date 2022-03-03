@@ -9,14 +9,18 @@
     <link rel="icon" href="https://giaodienweb.com.vn/wp-content/uploads/2021/11/cropped-logo-32x32.jpg" sizes="32x32">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 <body>
     <div id="app">
         <header class="header">
+            <div class="header-card">
+                <i class="fa-solid fa-bars"></i>
+            </div>
             <div class="logo">
                 <img src="./assets/img/logO.png" alt="logo" class="logo-img">
             </div>
-            <nav class="nav">
+            <nav class="nav hidden">
                 <ul class="nav-list">
                     <li class="nav-item">
                         <a href="#" class="nav-link">trang chu</a>
@@ -107,7 +111,7 @@
                 </ul>
             </nav>
             <div class="cart">
-                <a href="#" class="cart-link">gio hang</a>
+                <a href="#" class="cart-link hidden">gio hang</a>
                 <i class="fa-brands fa-opencart cart-icon"></i>
             </div>
         </header>
@@ -672,7 +676,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="blog-box">
+                    <div class="blog-box hidden">
                         <div class="blog-img">
                             <img src="./assets/img/chinh-sua-nut-tien-hanh-thanh-toan-edit-proceed-to-checkout.jpeg" alt="">
                         </div>
@@ -753,6 +757,33 @@
                 <span class="about-number">0788793092</span>
             </div>
         </button>
+        <div class="information">
+            <div class="overflow"></div>
+            <div class="close">&times;</div>
+            <ul class="information-list">
+                <li class="information-item">
+                    <a href="#" class="nav-link">trang chu</a>
+                </li>
+                <li class="information-item">
+                    <a href="#" class="nav-link">
+                        kho giao dien
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                </li>
+                <li class="information-item">
+                    <a href="#" class="nav-link">ten mien</a>
+                </li>
+                <li class="information-item">
+                    <a href="#" class="nav-link">cloud hosting</a>
+                </li>
+                <li class="information-item">
+                    <a href="#" class="nav-link">cloud sever</a>
+                </li>
+                <li class="information-item">
+                    <a href="#" class="nav-link">goc chia se</a>
+                </li>
+            </ul>
+        </div>
     </div>
     <script src="./assets/js/app.js"></script>
 </body>
