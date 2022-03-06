@@ -99,7 +99,7 @@
 }
 
 /* Tablet */ 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 380px) and (max-width: 768px) {
     .group-card {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(5, 1fr);
@@ -131,6 +131,84 @@
 }
 
 /* Mobile */
-@media (max-width: 320px) {
-    
+@media (max-width: 380px) {
+    .hidden-on-mobile {
+        display: none;
+    }
+    .cart {
+        margin: 0;
+    }
+    .logo {
+        padding: 0;
+    }
+    .main-title {
+        padding: 0 0 10px;
+    }
+    .main-title {
+        padding: 0 0 20px;
+    }
+    .introduce {
+        padding: 20px 8px 0;
+    }
+    .main-suggest {
+        align-items: unset;
+    }
+    .main-heading {
+        white-space: nowrap;
+    }
+    .main-btn {
+        margin: 0 12px 12px 0;
+    }
+    .group-card {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        padding: 0 20px 50px;
+        gap: 20px;
+    }
+    .box-card {
+        margin: 0;
+        padding-top: 15px;
+    }
+    .product-group {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        padding: 0 12px;
+    }
+    .wapper-title {
+        font-size: 36px;
+    }
+    .price-wapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 50px 12px 0;
+    }
+    .price::after {
+        height: 70px;
+        transform: rotate(-4deg);
+        top: 98%;
+    }
+    .price {
+        padding: 120px 0 100px;
+    }
+    .question-group {
+        flex-direction: column;
+    }
+    .question::after {
+        height: 70px;
+        top: 95%;
+    }
+    .question {
+        padding-bottom: 80px;
+    }
+    .footer-wapper {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+    }
+    .footer-box {
+        text-align: center;
+    }
+    .footer-list {
+        list-style: none;
+    }
 }
