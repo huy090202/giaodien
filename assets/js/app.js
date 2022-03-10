@@ -17,7 +17,7 @@ close.addEventListener('click', hiddenList)
 overflow.addEventListener('click', hiddenList)
 
 setInterval(() => {
-    if(title.innerText === 'Giao Diện Website Wordpress, Theme Wordpress') {
+    if (title.innerText === 'Giao Diện Website Wordpress, Theme Wordpress') {
         title.innerText = '1 tin nhắn mới'
     } else {
         title.innerText = 'Giao Diện Website Wordpress, Theme Wordpress'
@@ -26,8 +26,8 @@ setInterval(() => {
 
 
 window.addEventListener('scroll', () => {
-    if(window.scrollY > 100) {
-        header.style.height = '80px'
+    if (window.scrollY > 100) {
+        header.style.height = '100px'
     } else {
         header.style.height = '130px'
     }
